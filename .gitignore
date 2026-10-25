@@ -1,6 +1,30 @@
-.gradle/
+# Build outputs
 build/
 app/build/
-local.properties
-*.iml
+*.apk
+*.aab
+
+# Gradle and IDE
+.gradle/
 .idea/
+*.iml
+.kotlin/
+captures/
+.cxx/
+.externalNativeBuild/
+
+# Local machine settings
+local.properties
+
+# Signing material and secrets. Never commit these.
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+secrets/
+*.p12
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
